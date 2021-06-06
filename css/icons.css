@@ -1,0 +1,14 @@
+
+.main_icon-phone, .main_icon-mail, .main_icon-twitter, .main_icon-instagram{
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid var(--purple);
+    background: var(--white);
+    margin-top: 20px; 
+    text-decoration: underline;
+    margin-left: 1.5rem;
+}
+.main_icon-phone img, .main_icon-mail img, .main_icon-twitter img, .main_icon-instagram img{{
+    vertical-align: middle;
+}
+

@@ -1,0 +1,57 @@
+@import "./button.css";
+@import "./icons.css";
+@import "./header.css";
+
+:root{
+	--fontBase: 'Poppins', sans-serif;
+	--headline1: bold 95px/153px var(--fontBase);
+	--headline2: bold 59px/95px var(--fontBase);
+	--headline3: bold 48px/77px var(--fontBase);
+	--headline4: bold 34px/55px var(--fontBase);
+	--headline5: bold 24px/38px var(--fontBase);
+	--body1: 16px/25px var(--fontBase);
+	--body2: 14px/22spx var(--fontBase);
+	--button: bold 14px/25px var(--fontBase);
+	--caption: 12px/19px var(--fontBase);
+	--purple: #310A90;
+	--green: #42E2B8;
+	--white: #ffffff;
+	--gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+	--gradient2: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #1FA2FF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #12D8FA 0%, #A6FFCB 100%);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 62.5%;
+	background: var(--gradient2);
+	min-block-size: 100vh;
+}
+
+.header-logo{
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+h1{
+	font: var(--body1);
+	
+}
+.main_img-primary{
+	border-radius: 20px;
+	margin: 20px 25px;
+	
+}
+.hello{
+	font: var(--headline5);
+}
+.hello-name{
+	font: var(--headline4);
+	
+}
+.hello, .hello-name, .hello-text{
+	margin-left:2rem; 
+}
+.hello-text{
+	font:var(--body1)
+}
