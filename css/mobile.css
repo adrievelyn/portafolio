@@ -48,6 +48,7 @@ h1{
 }
 .hello-name{
 	font: var(--headline4);
+	color: var(--purple);
 	
 }
 .hello, .hello-name, .hello-text{
@@ -64,6 +65,7 @@ h1{
 .presentation2{
 	font:var(--headline6);
 	margin-top: 20px;
+	color: var(--purple);
 }
 .presentation, .presentation2{
 	margin-left: 2rem;
@@ -71,3 +73,9 @@ h1{
 
 }
 
+.down{
+	margin-left: 7rem;
+	height: 30px;
+	width: 100px;
+	margin-top: 10px;
+}
