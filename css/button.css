@@ -1,7 +1,5 @@
-.header-button, .header-button2{
+.header-button, .button-cv a{
     background: var(--purple);
-    margin-top: 2rem;
-	margin-right: 2rem;
     color: var(--white);
     font: var(--button);
     padding-inline-start: 24px;
@@ -12,6 +10,15 @@
     text-transform: uppercase;
     border: none;
 }
+.header-button{
+    margin-top: 2rem;
+	margin-right: 2rem;
+}
+.button-cv a{
+    margin-left: 15%;
+    text-decoration: none;
+    margin-top: 20px;
+}
 
 .header-button.is-secondary{
     background: unset;
@@ -19,3 +26,4 @@
     border: 2px solid var(--purple);
 
 }
+
