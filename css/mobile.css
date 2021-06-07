@@ -9,8 +9,9 @@
 	--headline3: bold 48px/77px var(--fontBase);
 	--headline4: bold 34px/55px var(--fontBase);
 	--headline5: bold 24px/38px var(--fontBase);
+	--headline6: bold 18px/32px var(--fontBase);
 	--body1: 16px/25px var(--fontBase);
-	--body2: 14px/22spx var(--fontBase);
+	--body2: 14px/22px var(--fontBase);
 	--button: bold 14px/25px var(--fontBase);
 	--caption: 12px/19px var(--fontBase);
 	--purple: #310A90;
@@ -51,7 +52,22 @@ h1{
 }
 .hello, .hello-name, .hello-text{
 	margin-left:2rem; 
+	margin-right: 1.5rem;
 }
 .hello-text{
-	font:var(--body1)
+	font:var(--body2);
 }
+.presentation{
+	font:var(--body1);
+	margin-top: 40px;
+}
+.presentation2{
+	font:var(--headline6);
+	margin-top: 20px;
+}
+.presentation, .presentation2{
+	margin-left: 2rem;
+	margin-right: 1.5rem;
+
+}
+
