@@ -1,4 +1,4 @@
-.header-button, .button-cv {
+.header_button-CV, .button-cv {
     background: var(--purple);
     color: var(--white);
     font: var(--button);
@@ -10,7 +10,7 @@
     text-transform: uppercase;
     border: none;
 }
-.header-button{
+.header_button-CV{
     margin-top: 2rem;
 	margin-right: 2rem;
 }

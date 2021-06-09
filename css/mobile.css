@@ -1,6 +1,9 @@
 @import "./button.css";
 @import "./icons.css";
 @import "./header.css";
+@import "./hero.css";
+@import "./tablet.css";
+@import "./desktop.css";
 
 :root{
 	--fontBase: 'Poppins', sans-serif;
@@ -38,7 +41,7 @@ h1{
 	font: var(--body1);
 	
 }
-.main_img-primary{
+.img-primary{
 	border-radius: 20px;
 	margin: 20px 25px;
 	
@@ -58,24 +61,22 @@ h1{
 .hello-text{
 	font:var(--body2);
 }
-.presentation{
+.about-me{
 	font:var(--body1);
 	margin-top: 40px;
 }
-.presentation2{
+.about-me2{
 	font:var(--headline6);
 	margin-top: 20px;
 	color: var(--purple);
 }
-.presentation, .presentation2{
+.about-me, .about-me2{
 	margin-left: 2rem;
 	margin-right: 1.5rem;
 
 }
 
-.down{
+.arrow-down{
 	margin-left: 7rem;
-	height: 30px;
-	width: 100px;
 	margin-top: 10px;
 }

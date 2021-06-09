@@ -1,0 +1,25 @@
+@media screen and (min-width: 930px){
+   .header{
+    margin-left: 3rem;
+    margin-right: 3rem;
+   }
+    .hero{
+    display: flex;
+    flex-flow: row-reverse;
+    margin-left: 3rem;
+    margin-right: 3rem;
+   }   
+   .main-hello{
+    
+    }
+   .img-primary{
+    width: 250px;
+    height: 230px;
+   }
+   .icons{
+     margin-top: 300px;
+   }
+   h1{
+    margin-left: 10rem;
+   }
+    }

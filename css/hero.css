@@ -1,0 +1,19 @@
+@media screen and (min-width: 375px){
+.img-primary{
+	border-radius: 20px;
+	margin: 20px 25px;
+	width: 320px;
+    height: 200px;
+}
+.main_icon-linkedin, .main_icon-phone, .main_icon-mail, .main_icon-github{
+    margin-left: 2rem;
+}
+.button-cv {
+    margin-left: 20%;
+   
+}
+.down{
+	margin-left: 20rem;
+
+}
+}

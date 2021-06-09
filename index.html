@@ -8,26 +8,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="./css/desktop.css">
-  
 </head>
 <body>
     <header class='header'>
     <a href="https://adrianasanchezm.com/" target="_blank"><img class='header-logo' src="./images/ASM3.png" witd='80' height="80" alt="logo"></a>
-    <button class='header-button'>Currículum</button>
+    <div class='header_buttons'>
+
+    </div>
+    <button class='header_button-CV'>Currículum</button>
     <!-- <button class='header-button is-secondary'>Currículum</button> -->
     </header>
-    <main class='main'>
-        <section >
+        <section class='hero'>
+            <div class='main-img'>
+                <img class='img-primary' src="./images/Adriana.jpg" witdh='180' height="180" alt="">
+            </div>
             <div class='main-hello'>
-                <img class='main_img-primary' src="./images/Adriana.jpg" witdh='180' height="180" alt="">
-                <p class='hello'>¡Hola a todos!</p>
-                <p class='hello-name'>Soy Adriana</p>
+                <h1>
+                    <span class='hello'>¡Hola a todos!</span><br>
+                    <span class='hello-name'>Soy Adriana</span>
+                </h1>
                 <p class='hello-text'>
                     Frontend Developer, programar se ha convertido en mi pasión, para crear y comunicar construyendo código.
                 </p>
             </div>
+           </section>
+           <section class='icons'>
             <div class='main_icons'>
                 <!-- esta puede ser una manera de llamar el icono y 
                 también con la imágen directamente -->
@@ -42,18 +47,21 @@
              <input class='button-cv' type="button" onclick="location.href='http://drive.google.com/file/d/1P-fuvUn1Sb5HaH9twKg_PVWXcbGfP-wY/view?usp=sharing';"  value="Descargar Currículum" />
             <!-- </div> -->
              <!-- <button class='header-button2'>Descargar Currículum</button> -->
-             <section>
-                 <p class='presentation'>
+           </section>
+             <section class='about'>
+                 <p class='about-me'>
                     Poder volver algo simple en algo extraordinario con códigos,
                     resultó ser fascinante. <br> Estoy en constante aprendizaje, para mejorar cada día
                     dentro de este gran mundo que es la Tecnología.
                  </p>
-                 <p class='presentation2'>
+                 <p class='about-me2'>
                     Te invito a conocer algunos de mis proyectos.
                  </p>
-                 <img class='down' src="./icons/icons-down-purple.svg" alt="flecha de ver proyectos">
+                 <img class='arrow-down' src="./icons/icons-down-purple.svg" width='100' height='30' alt="flecha para ver proyectos">
              </section>
+             <footer>
+                 <p>Hecho con ❤️️ de Adri</p>
+             </footer>
          </section> 
-    </main>
 </body>
 </html>
