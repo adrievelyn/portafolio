@@ -1,9 +1,12 @@
 @import "./button.css";
+@import "./header_buttons.css";
 @import "./icons.css";
 @import "./header.css";
 @import "./hero.css";
 @import "./tablet.css";
 @import "./desktop.css";
+@import "./header_buttons.css";
+@import "./wrapper.css";
 
 :root{
 	--fontBase: 'Poppins', sans-serif;
@@ -13,8 +16,10 @@
 	--headline4: bold 34px/55px var(--fontBase);
 	--headline5: bold 24px/38px var(--fontBase);
 	--headline6: bold 18px/32px var(--fontBase);
+	--headline7: bold 14px/28px var(--fontBase);
 	--body1: 16px/25px var(--fontBase);
 	--body2: 14px/22px var(--fontBase);
+	--body3: 20px/31px var(--fontBase);
 	--button: bold 14px/25px var(--fontBase);
 	--caption: 12px/19px var(--fontBase);
 	--purple: #310A90;
@@ -35,48 +40,54 @@ body{
 
 .header-logo{
 	margin-top: 2rem;
-	margin-left: 2rem;
+	
 }
+
 h1{
 	font: var(--body1);
 	
 }
 .img-primary{
 	border-radius: 20px;
-	margin: 20px 25px;
-	
+	margin-top: 25px;
+	width: 285px;	
 }
-.hello{
+/* .hello{
 	font: var(--headline5);
 }
 .hello-name{
 	font: var(--headline4);
 	color: var(--purple);
 	
+} */
+/* esto es lo mismo que las clases hello and hello-name pero
+usando la seudoclase y otra opción en lugar de span:nth-of-type(1)
+se puede colocar span:first-child(solo al primero))*/
+.hero h1 span:nth-of-type(1){
+	font: var(--headline5);
 }
-.hello, .hello-name, .hello-text{
-	margin-left:2rem; 
-	margin-right: 1.5rem;
+.hero h1 span:nth-of-type(2){
+	font: var(--headline4);
+	color: var(--purple);
 }
-.hello-text{
+/* .hero_description{
+	gap: 16px;
+} */
+
+.hello-text {
 	font:var(--body2);
 }
 .about-me{
 	font:var(--body1);
 	margin-top: 40px;
 }
-.about-me2{
+.projects-invite{
 	font:var(--headline6);
 	margin-top: 20px;
 	color: var(--purple);
 }
-.about-me, .about-me2{
-	margin-left: 2rem;
-	margin-right: 1.5rem;
 
-}
-
-.arrow-down{
-	margin-left: 7rem;
+.projects-down{
 	margin-top: 10px;
+	padding-left: 130px;
 }

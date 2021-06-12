@@ -1,25 +1,49 @@
-@media screen and (min-width: 930px){
-   .header{
-    margin-left: 3rem;
-    margin-right: 3rem;
-   }
+@media screen and (min-width: 851px){
+    .header{
+	 padding-top: 25px; 
+  }
+    .header_buttons ul {
+        display: flex;
+        padding-top: 25px; 
+        list-style: none;
+        gap: 40px;
+    }
+    .header_buttons ul a {
+        text-decoration: none;
+        color: var(--purple);
+        font: var(--headline6);
+    }
+    .header_buttons-link1{
+        margin-left: 180px;
+    }
+    .header_button-CV{
+        display: none;
+    }
     .hero{
     display: flex;
-    flex-flow: row-reverse;
-    margin-left: 3rem;
-    margin-right: 3rem;
    }   
-   .main-hello{
-    
+   .hero_description{
+    margin-top: 20px;
+    order: 1;
+    }
+    .hero-img{
+        order:2;
+        flex: 1;
+	    text-align: end;
     }
    .img-primary{
-    width: 250px;
-    height: 230px;
+    width: 350px;
+    height: 250px;
    }
    .icons{
      margin-top: 300px;
    }
-   h1{
-    margin-left: 10rem;
-   }
-    }
+  
+   
+   .projects-down img {
+    text-align: center;
+    flex: 1;
+  
+   } 
+  
+}

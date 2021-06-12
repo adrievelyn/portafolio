@@ -1,19 +1,58 @@
-@media screen and (min-width: 375px){
+@media screen and (max-width: 599px){
+	.header{
+		position: sticky;
+		top: 0;
+	}
 .img-primary{
 	border-radius: 20px;
-	margin: 20px 25px;
-	width: 320px;
-    height: 200px;
+	margin-top: 25px;
+	width: 340px;
+    height: 230px;
 }
-.main_icon-linkedin, .main_icon-phone, .main_icon-mail, .main_icon-github{
-    margin-left: 2rem;
+/* .projects .projects-down img {
+	padding: 250px;
+} */
+.button_download-cv {
+    text-decoration: none;
+    margin-top: 20px;
+    width: 340px;
 }
-.button-cv {
-    margin-left: 20%;
-   
-}
-.down{
-	margin-left: 20rem;
 
 }
+
+@media screen and (min-width: 600px){
+.hero{
+	display: flex;
+	gap: 32px;
+}
+.hero_description{
+	order:1;
+	max-inline-size: 450px;
+	padding-top: 70px;
+}
+.hero-img{
+	order: 2;
+	flex: 1;
+	text-align: end;
+}
+ .header_button-CV{
+	display: none;
+} 
+.header_buttons ul {
+	display: flex;
+	padding-top: 25px; 
+	list-style: none;
+	gap: 40px;
+}
+.header_buttons ul a {
+	text-decoration: none;
+	color: var(--purple);
+	font: var(--headline6);
+}
+.header_buttons-link1 {
+	margin-left: 100px;
+	
+}
+
+
 }

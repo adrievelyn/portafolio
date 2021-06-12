@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/mobile.css">
+    
 </head>
 <body>
+    <div class="wrapper">
     <header class='header'>
     <a href="https://adrianasanchezm.com/" target="_blank"><img class='header-logo' src="./images/ASM3.png" witd='80' height="80" alt="logo"></a>
-    <div class='header_buttons'>
-
-    </div>
+    <nav class='header_buttons'>
+        <ul>
+            <li><a class='header_buttons-link1' href="#1">ABOUT ME</a></li>
+            <li><a class='header_buttons-link2' href="#2">PROYECTOS</a></li>
+            <li><a class='header_buttons-link3' href="#3">HABLEMOS</a></li>
+        </ul>  
+    </nav>
     <button class='header_button-CV'>Currículum</button>
-    <!-- <button class='header-button is-secondary'>Currículum</button> -->
     </header>
         <section class='hero'>
-            <div class='main-img'>
+            <div class='hero-img'>
                 <img class='img-primary' src="./images/Adriana.jpg" witdh='180' height="180" alt="">
             </div>
-            <div class='main-hello'>
+            <div class='hero_description'>
                 <h1>
                     <span class='hello'>¡Hola a todos!</span><br>
                     <span class='hello-name'>Soy Adriana</span>
@@ -31,37 +36,38 @@
                     Frontend Developer, programar se ha convertido en mi pasión, para crear y comunicar construyendo código.
                 </p>
             </div>
-           </section>
-           <section class='icons'>
-            <div class='main_icons'>
+       </section>
+       <section id='1' class='social-media'>
+            <div class='social_media-icons'>
                 <!-- esta puede ser una manera de llamar el icono y 
                 también con la imágen directamente -->
-                <!-- <i class='main_icon-phone'></i> -->
-                <a href='https://www.linkedin.com/in/adriana-sanchez-mejias/' target="_blank"><img class='main_icon-linkedin' src="./icons/linkedin2.png" alt="Icono-Linkedin"></a>  
-                <a href="https://github.com/adrievelyn" target="_blank"><img class='main_icon-github' src="./icons/icon-github.svg" alt="Icono-Github"></a> 
-                <a href='tel:+56975138673' target="_blank"><img class='main_icon-phone' src="./icons/icon-phone.svg" alt="Icono-Telefono"></a>
-                <a href='mailto:adrievelyn@gmail.com?subject=Gracias%20por%20contactarme' target="_blank"><img class='main_icon-mail' src="./icons/icon-mail-purple.svg" alt="Icono-mail"></a>  
+                <!-- <i class='social_icon-phone'></i> -->
+                <a href='https://www.linkedin.com/in/adriana-sanchez-mejias/' target="_blank"><img class='social_icon-linkedin' src="./icons/linkedin2.png" alt="Icono-Linkedin"></a>  
+                <a href="https://github.com/adrievelyn" target="_blank"><img class='social_icon-github' src="./icons/icon-github.svg" alt="Icono-Github"></a> 
+                <a href='tel:+56975138673' target="_blank"><img class='social_icon-phone' src="./icons/icon-phone.svg" alt="Icono-Telefono"></a>
+                <a href='mailto:adrievelyn@gmail.com?subject=Gracias%20por%20contactarme' target="_blank"><img class='social_icon-mail' src="./icons/icon-mail-purple.svg" alt="Icono-mail"></a>  
              </div>   
              <!-- <div class='button-cv'>
              <a href="https://drive.google.com/file/d/1P-fuvUn1Sb5HaH9twKg_PVWXcbGfP-wY/view?usp=sharing">Descargar Currículum</a> -->
-             <input class='button-cv' type="button" onclick="location.href='http://drive.google.com/file/d/1P-fuvUn1Sb5HaH9twKg_PVWXcbGfP-wY/view?usp=sharing';"  value="Descargar Currículum" />
+             <input class='button_download-cv' type="button" onclick="location.href='http://drive.google.com/file/d/1P-fuvUn1Sb5HaH9twKg_PVWXcbGfP-wY/view?usp=sharing';"  value="Descargar Currículum" />
             <!-- </div> -->
              <!-- <button class='header-button2'>Descargar Currículum</button> -->
-           </section>
-             <section class='about'>
                  <p class='about-me'>
                     Poder volver algo simple en algo extraordinario con códigos,
-                    resultó ser fascinante. <br> Estoy en constante aprendizaje, para mejorar cada día
+                    resultó ser fascinante. Estoy en constante aprendizaje, para mejorar cada día
                     dentro de este gran mundo que es la Tecnología.
                  </p>
-                 <p class='about-me2'>
+       </section>
+       <section class='projects'>
+                 <p class='projects-invite'>
                     Te invito a conocer algunos de mis proyectos.
                  </p>
-                 <img class='arrow-down' src="./icons/icons-down-purple.svg" width='100' height='30' alt="flecha para ver proyectos">
-             </section>
-             <footer>
+                  <img id='2' class='projects-down' src="./icons/icons-down-purple.svg" alt="flecha para ver proyectos">
+       </section>
+       <footer>
                  <p>Hecho con ❤️️ de Adri</p>
-             </footer>
-         </section> 
+       </footer>
+       </section> 
+     </div>
 </body>
 </html>
