@@ -1,0 +1,20 @@
+.social_icon-linkedin, .social_icon-phone, .social_icon-mail, .social_icon-github{
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px solid var(--purple);
+    background: var(--white);
+    margin-top: 20px; 
+    text-decoration: underline;
+}
+.social_icon-linkedin img, .social_icon-phone img, .social_icon-mail img, .social_icon-github img{{
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 600px){
+    .social_media-icons{
+        padding-top: 20px;
+    }
+    .social_icon-github, .social_icon-phone, .social_icon-mail{
+        margin-left: 15px;
+    }
+}

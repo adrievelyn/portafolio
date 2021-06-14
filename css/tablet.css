@@ -45,5 +45,29 @@
     flex: 1;
   
    } 
-  
+   .footer-text{
+       font-size: 12px;
+       padding-left: 50px;
+   }
+   .footer-logo{
+       display: block;
+       width: 50px;
+       height: 50px;
+       padding-top: 15px;
+   }
+   .footer .social-media{
+    
+        display: inline-flex;
+    }
+    .footer .social_media-icons{
+        order: 3;
+        flex: 1;
+        margin-left: 40px;
+    }
+    .footer .social_icon-linkedin,  .footer .social_icon-phone,  .footer .social_icon-mail,  .footer .social_icon-github{
+        padding: 5px;
+
+       
+    } 
+
 }

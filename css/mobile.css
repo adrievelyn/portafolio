@@ -1,12 +1,13 @@
 @import "./button.css";
 @import "./header_buttons.css";
-@import "./icons.css";
 @import "./header.css";
 @import "./hero.css";
 @import "./tablet.css";
 @import "./desktop.css";
 @import "./header_buttons.css";
 @import "./wrapper.css";
+@import "./social-media.css";
+@import "./footer.css";
 
 :root{
 	--fontBase: 'Poppins', sans-serif;

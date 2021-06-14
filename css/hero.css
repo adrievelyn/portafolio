@@ -18,6 +18,9 @@
     margin-top: 20px;
     width: 340px;
 }
+.footer-logo{
+	display: none;
+}
 
 }
 
@@ -37,7 +40,7 @@
 	flex: 1;
 	text-align: end;
 }
- .header_button-CV{
+.header_button-CV{
 	display: none;
 } 
 .header_buttons ul {
@@ -55,12 +58,6 @@
 	margin-left: 100px;
 	
 }
-.social_media-icons{
-	padding-top: 20px;
-}
-.social_icon-github, .social_icon-phone, .social_icon-mail{
-	margin-left: 15px;
-}
 .project_responsive{
 	display: flex;
 	align-items: center;
@@ -75,4 +72,17 @@
 	padding-top: 30px;
 	
 }
+/* esto selecciona los elementos y los coloca en zigzag impares a un lado y pares al otro, para no
+hacerlo por partes, ya lo demás toman el estilo del padre */
+/* .project_responsive:nth-child(odd) .project_responsive-img{
+	order: 2
+} */
+.footer-logo{
+	display: none;
+}
+.footer .social_icon-linkedin, .footer .social_icon-phone, .footer .social_icon-mail, .footer .social_icon-github{
+	margin-left: 30px;
+}
+}
+
 

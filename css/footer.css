@@ -1,0 +1,14 @@
+.footer{
+    color: var(--purple);
+    font:var(--body1);
+    text-align: center;
+}
+
+.footer-text{
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+/* .social_icon-phone footer, .social_icon-mail footer, .social_icon-github footer {
+   margin-left: 30px;
+} */
