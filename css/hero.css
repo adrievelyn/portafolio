@@ -1,8 +1,9 @@
 @media screen and (max-width: 599px){
-	.header{
+	/* .header{
 		position: sticky;
 		top: 0;
-	}
+		backdrop-filter: blur(15px);
+	} */
 .img-primary{
 	border-radius: 20px;
 	margin-top: 25px;
@@ -21,6 +22,7 @@
 }
 
 @media screen and (min-width: 600px){
+
 .hero{
 	display: flex;
 	gap: 32px;

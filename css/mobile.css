@@ -38,6 +38,7 @@ body{
 	min-block-size: 100vh;
 }
 
+
 .header-logo{
 	margin-top: 2rem;
 	
@@ -47,6 +48,7 @@ h1{
 	font: var(--body1);
 	
 }
+
 .img-primary{
 	border-radius: 20px;
 	margin-top: 25px;
@@ -90,4 +92,81 @@ se puede colocar span:first-child(solo al primero))*/
 .projects-down{
 	margin-top: 10px;
 	padding-left: 130px;
+}
+.button_download-cv{
+	width: 280px;
+}
+.project_responsive-img img{
+	position: absolute;
+	margin-top: 20px;
+}
+.img-desktop{
+	width:240px;
+	height:177;
+	border: 10px solid #E7E7E7;
+	margin-left: 25px;
+	
+}
+.img-batatabit{
+	width: 240px;
+	height: 175px;
+	padding-top: 10px;
+	padding-left: 35px;
+}
+.img-desktop_base{
+	padding-top: 185px;
+	width: 280px;
+	height: 6px;
+	padding-left: 22px;
+	
+}
+.img-screen-s{
+	width:80px;
+	height:160px;
+	padding-top: 45px;
+}
+.img-batatabit_cel{
+	width:70px;
+	height:130px;
+	padding-top: 55px;
+	padding-left: 5px;
+}
+.project_responsive-description{
+	padding-top: 250px;
+}
+.responsive-links {
+	padding-top: 20px;
+	list-style: none;
+}
+.responsive-links a{
+	text-decoration: none;
+	width: 280px;
+}
+
+.batatabit-project, .batatabit-code{
+	position: static;
+	width: 280px;
+	height: 45px;
+	font-weight: bold;
+	font-size: 14px;
+	border: 2px solid var(--purple);
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.responsive-description{
+	font: var(--body1);
+}
+.batatabit-project{
+	background: var(--purple);
+	margin-top: 15px;
+	color:var(--white);
+}
+.batatabit-code{
+	color: var(--purple);
+}
+footer{
+	margin-top: 300px;
 }
