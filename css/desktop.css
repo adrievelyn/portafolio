@@ -3,7 +3,9 @@
         inline-size: 500px;
         block-size: 504px;
     }
-    
+    .img-desktop_base{
+        padding-right: 10px;
+    }
 }
 
 @media screen and (min-width: 1280px){}

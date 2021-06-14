@@ -4,14 +4,14 @@
   }
     .header_buttons ul {
         display: flex;
-        padding-top: 25px; 
+        padding-top: 50px; 
         list-style: none;
         gap: 40px;
     }
     .header_buttons ul a {
         text-decoration: none;
         color: var(--purple);
-        font: var(--headline6);
+        font: var(--headline7);
     }
     .header_buttons-link1{
         margin-left: 180px;

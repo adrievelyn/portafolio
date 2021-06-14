@@ -96,12 +96,13 @@ se puede colocar span:first-child(solo al primero))*/
 .button_download-cv{
 	width: 280px;
 }
+
 .project_responsive-img img{
 	position: absolute;
 	margin-top: 20px;
 }
 .img-desktop{
-	width:240px;
+	width:230px;
 	height:177;
 	border: 10px solid #E7E7E7;
 	margin-left: 25px;
@@ -109,15 +110,15 @@ se puede colocar span:first-child(solo al primero))*/
 }
 .img-batatabit{
 	width: 240px;
-	height: 175px;
+	height: 170px;
 	padding-top: 10px;
-	padding-left: 35px;
+	padding-left: 30px;
 }
 .img-desktop_base{
-	padding-top: 185px;
-	width: 280px;
+	padding-top: 180px;
+	width: 250px;
 	height: 6px;
-	padding-left: 22px;
+	padding-left: 30px;
 	
 }
 .img-screen-s{
@@ -131,16 +132,22 @@ se puede colocar span:first-child(solo al primero))*/
 	padding-top: 55px;
 	padding-left: 5px;
 }
-.project_responsive-description{
-	padding-top: 250px;
+.project_responsive{
+	columns: reverse;
+}
+.project_responsive-img{
+	padding-bottom: 250px;
 }
 .responsive-links {
 	padding-top: 20px;
 	list-style: none;
+	
 }
+
 .responsive-links a{
 	text-decoration: none;
 	width: 280px;
+
 }
 
 .batatabit-project, .batatabit-code{
@@ -155,6 +162,7 @@ se puede colocar span:first-child(solo al primero))*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 .responsive-description{
 	font: var(--body1);
@@ -166,6 +174,7 @@ se puede colocar span:first-child(solo al primero))*/
 }
 .batatabit-code{
 	color: var(--purple);
+	
 }
 footer{
 	margin-top: 300px;
