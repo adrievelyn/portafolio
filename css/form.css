@@ -1,0 +1,22 @@
+.form{
+    flex-direction: column;
+    gap: 16px;
+}
+.form label{
+    display:flex;
+    flex-direction: column;
+    font: var(--button);
+    color: var(--purple);
+     margin-top: 24px;
+}
+.form input, .form textarea{
+    border: 2px solid #858C94;
+    border-radius: 8px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    padding-block-end: 16px;
+    padding-block-start: 16px;
+    font: var(--body1);
+    margin-block-start: 8px;
+   
+}

@@ -8,6 +8,7 @@
 @import "./wrapper.css";
 @import "./social-media.css";
 @import "./footer.css";
+@import "./form.css";
 
 :root{
 	--fontBase: 'Poppins', sans-serif;
@@ -177,6 +178,31 @@ se puede colocar span:first-child(solo al primero))*/
 	color: var(--purple);
 	
 }
+.form-title, .form-button {
+	background: var(--purple);
+	align-self: flex-start;
+	text-align: center;
+	color: var(--white);	
+	padding-block-start: 4px;
+	padding-block-end: 8px;
+	padding-inline-end: 8px;
+	padding-inline-start:8px;
+	text-decoration: none;
+	margin-top: 25px;
+}
+.form-title{
+	font:var(--headline5);
+	box-shadow: -4px 4px 0 var(--white);
+}
+.form-button{
+	font:var(--headline7);
+	margin-left: 100px;
+}
+.form-subtitle{
+	font:var(--body1);
+	text-align: center;
+	padding-top: 16px;
+}
 footer{
-	margin-top: 300px;
+	margin-top: 50px;
 }
