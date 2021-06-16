@@ -61,7 +61,7 @@
 	margin-left: 100px;
 	
 }
-.project_responsive, .project_burgerQueen, .project_sodimac{
+.project_responsive, .project_topMovies, .project_sodimac{
 	display: flex;
 	align-items: center;
 }

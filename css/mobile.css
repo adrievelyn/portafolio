@@ -103,11 +103,11 @@ se puede colocar span:first-child(solo al primero))*/
 	width: 280px;
 }
 
-.project_responsive-img img, .project_burgerQueen-img img, .project_sodimac-img img{
+.project_responsive-img img, .project_topMovies-img img, .project_sodimac-img img{
 	position: absolute;
 	margin-top: 20px;
 }
-.img-desktop, {
+.img-desktop {
 	width:230px;
 	height:177;
 	border: 10px solid #E7E7E7;
@@ -138,25 +138,23 @@ se puede colocar span:first-child(solo al primero))*/
 	padding-top: 55px;
 	padding-left: 5px;
 }
-.project_responsive, .project_burgerQueen, .project_sodimac{
+.project_responsive, .project_topMovies, .project_sodimac{
 	columns: reverse;
 }
-.project_responsive-img, .project_burgerQueen-img, .project_sodimac-img{
+.project_responsive-img, .project_topMovies-img, .project_sodimac-img{
 	padding-bottom: 250px;
 }
-.responsive-links, .burgerQueen-links, .sodimac_links {
+.responsive-links, .topMovies-links, .sodimac-links {
 	padding-top: 20px;
 	list-style: none;
 	
 }
-
-.responsive-links a, .burgerQueen-links a, .sodimac_links a{
+.responsive-links a, .topMovies-links a, .sodimac-links a{
 	text-decoration: none;
 	width: 280px;
 
 }
-
-.batatabit-project, .batatabit-code, .burgerQueen-project, .burgerQueen-code, .sodimac-code, .sodimac-project{
+.batatabit-project, .batatabit-code, .topMovies-project, .topMovies-code, .sodimac-project, .sodimac-code{
 	position: static;
 	width: 280px;
 	height: 45px;
@@ -170,15 +168,15 @@ se puede colocar span:first-child(solo al primero))*/
 	align-items: center;
 
 }
-.responsive-description, .burger-description, .sodimac-description{
+.responsive-description, .topMovies-description, .sodimac-description{
 	font: var(--body1);
 }
-.batatabit-project, .burgerQueen-project, .sodimac-project{
+.batatabit-project, .topMovies-project, .sodimac-project{
 	background: var(--purple);
 	margin-top: 15px;
 	color:var(--white);
 }
-.batatabit-code, .burgerQueen-code, .sodimac-code{
+.batatabit-code, .topMovies-code, .sodimac-code{
 	color: var(--purple);
 	
 }
@@ -188,13 +186,13 @@ se puede colocar span:first-child(solo al primero))*/
 	margin-left: 30px;
 	padding-top: 40px;
 }
-.img-burgerQueen{
+.img-topMovies{
 	width: 220px;
 	height: 300px;
 	padding-top: 50px;
 	padding-left: 35px;
 }
-.burger-description {
+.topMovies-description {
 	padding-top: 160px;
 }
 .screen-cel{
@@ -238,5 +236,5 @@ se puede colocar span:first-child(solo al primero))*/
 	padding-top: 16px;
 }
 footer{
-	margin-top: 50px;
+	margin-top: 80px;
 }
