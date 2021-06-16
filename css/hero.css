@@ -58,7 +58,7 @@
 	margin-left: 100px;
 	
 }
-.project_responsive{
+.project_responsive, .project_burgerQueen{
 	display: flex;
 	align-items: center;
 }
@@ -71,6 +71,10 @@
 	flex:1;
 	padding-top: 30px;
 	
+}
+
+.form ..form-title{
+	align-self: stretch;
 }
 /* esto selecciona los elementos y los coloca en zigzag impares a un lado y pares al otro, para no
 hacerlo por partes, ya lo demás toman el estilo del padre */

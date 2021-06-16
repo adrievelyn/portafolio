@@ -24,11 +24,15 @@
 	--body3: 20px/31px var(--fontBase);
 	--button: bold 14px/25px var(--fontBase);
 	--caption: 12px/19px var(--fontBase);
-	--purple: #310A90;
+	/* --purple: #310A90; */
+	/* --purple: #AF87CE; */
+	--purple: #095F8B;
+
 	--green: #42E2B8;
 	--white: #ffffff;
 	--gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
 	--gradient2: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #1FA2FF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #12D8FA 0%, #A6FFCB 100%);
+
 }
 *{
 	margin: 0;
@@ -99,11 +103,11 @@ se puede colocar span:first-child(solo al primero))*/
 	width: 280px;
 }
 
-.project_responsive-img img{
+.project_responsive-img img, .project_burgerQueen-img img{
 	position: absolute;
 	margin-top: 20px;
 }
-.img-desktop{
+.img-desktop, {
 	width:230px;
 	height:177;
 	border: 10px solid #E7E7E7;
@@ -134,25 +138,25 @@ se puede colocar span:first-child(solo al primero))*/
 	padding-top: 55px;
 	padding-left: 5px;
 }
-.project_responsive{
+.project_responsive, .project_burgerQueen{
 	columns: reverse;
 }
-.project_responsive-img{
+.project_responsive-img, .project_burgerQueen-img{
 	padding-bottom: 250px;
 }
-.responsive-links {
+.responsive-links, .burgerQueen-links {
 	padding-top: 20px;
 	list-style: none;
 	
 }
 
-.responsive-links a{
+.responsive-links a, .burgerQueen-links a{
 	text-decoration: none;
 	width: 280px;
 
 }
 
-.batatabit-project, .batatabit-code{
+.batatabit-project, .batatabit-code, .burgerQueen-project, .burgerQueen-code{
 	position: static;
 	width: 280px;
 	height: 45px;
@@ -166,17 +170,32 @@ se puede colocar span:first-child(solo al primero))*/
 	align-items: center;
 
 }
-.responsive-description{
+.responsive-description, .burger-description{
 	font: var(--body1);
 }
-.batatabit-project{
+.batatabit-project, .burgerQueen-project{
 	background: var(--purple);
 	margin-top: 15px;
 	color:var(--white);
 }
-.batatabit-code{
+.batatabit-code, .burgerQueen-code{
 	color: var(--purple);
 	
+}
+.img-rectangle{
+	width:230px;
+	height:177;
+	margin-left: 30px;
+	padding-top: 40px;
+}
+.img-burgerQueen{
+	width: 220px;
+	height: 300px;
+	padding-top: 50px;
+	padding-left: 35px;
+}
+.burger-description{
+	padding-top: 160px;
 }
 .form-title, .form-button {
 	background: var(--purple);
