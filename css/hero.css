@@ -1,9 +1,9 @@
 @media screen and (max-width: 599px){
-	/* .header{
+	 .header{
 		position: sticky;
 		top: 0;
 		backdrop-filter: blur(15px);
-	} */
+	} 
 .img-primary{
 	border-radius: 20px;
 	margin-top: 25px;
@@ -21,7 +21,10 @@
 .footer-logo{
 	display: none;
 }
-
+.header_buttons li{
+	text-decoration: none;
+	list-style: none;
+}
 }
 
 @media screen and (min-width: 600px){
@@ -58,15 +61,15 @@
 	margin-left: 100px;
 	
 }
-.project_responsive, .project_burgerQueen{
+.project_responsive, .project_burgerQueen, .project_sodimac{
 	display: flex;
 	align-items: center;
 }
-.project_responsive-img{
+.project_responsive-img, .project_sodimac-img{
 	order:1;
 	flex:1;
 }
-.project_responsive-description{
+.project_responsive-description, .project_sodimac-description{
 	order:2;
 	flex:1;
 	padding-top: 30px;

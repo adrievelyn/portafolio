@@ -103,7 +103,7 @@ se puede colocar span:first-child(solo al primero))*/
 	width: 280px;
 }
 
-.project_responsive-img img, .project_burgerQueen-img img{
+.project_responsive-img img, .project_burgerQueen-img img, .project_sodimac-img img{
 	position: absolute;
 	margin-top: 20px;
 }
@@ -138,25 +138,25 @@ se puede colocar span:first-child(solo al primero))*/
 	padding-top: 55px;
 	padding-left: 5px;
 }
-.project_responsive, .project_burgerQueen{
+.project_responsive, .project_burgerQueen, .project_sodimac{
 	columns: reverse;
 }
-.project_responsive-img, .project_burgerQueen-img{
+.project_responsive-img, .project_burgerQueen-img, .project_sodimac-img{
 	padding-bottom: 250px;
 }
-.responsive-links, .burgerQueen-links {
+.responsive-links, .burgerQueen-links, .sodimac_links {
 	padding-top: 20px;
 	list-style: none;
 	
 }
 
-.responsive-links a, .burgerQueen-links a{
+.responsive-links a, .burgerQueen-links a, .sodimac_links a{
 	text-decoration: none;
 	width: 280px;
 
 }
 
-.batatabit-project, .batatabit-code, .burgerQueen-project, .burgerQueen-code{
+.batatabit-project, .batatabit-code, .burgerQueen-project, .burgerQueen-code, .sodimac-code, .sodimac-project{
 	position: static;
 	width: 280px;
 	height: 45px;
@@ -170,15 +170,15 @@ se puede colocar span:first-child(solo al primero))*/
 	align-items: center;
 
 }
-.responsive-description, .burger-description{
+.responsive-description, .burger-description, .sodimac-description{
 	font: var(--body1);
 }
-.batatabit-project, .burgerQueen-project{
+.batatabit-project, .burgerQueen-project, .sodimac-project{
 	background: var(--purple);
 	margin-top: 15px;
 	color:var(--white);
 }
-.batatabit-code, .burgerQueen-code{
+.batatabit-code, .burgerQueen-code, .sodimac-code{
 	color: var(--purple);
 	
 }
@@ -194,8 +194,23 @@ se puede colocar span:first-child(solo al primero))*/
 	padding-top: 50px;
 	padding-left: 35px;
 }
-.burger-description{
+.burger-description {
 	padding-top: 160px;
+}
+.screen-cel{
+	width: 200px;
+	height: 380px;
+	padding-top: 50px;
+	padding-left: 45px;
+}
+.img-sodimac{
+	width: 190px;
+	height: 340px;
+	padding-top: 70px;
+	padding-left: 50px;
+}
+.sodimac-description{
+	padding-top: 230px;
 }
 .form-title, .form-button {
 	background: var(--purple);
