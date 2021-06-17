@@ -1,9 +1,10 @@
 @media screen and (max-width: 599px){
-	 /* .header{
+	.header{
 		position: sticky;
+		z-index: 10;
 		top: 0;
 		backdrop-filter: blur(15px);
-	}  */
+	}
 .img-primary{
 	border-radius: 20px;
 	margin-top: 25px;
@@ -30,6 +31,7 @@
 @media screen and (min-width: 600px){
 .header{
 		position: sticky;
+		z-index: 10;
 		top: 0;
 		backdrop-filter: blur(15px);
 	}
