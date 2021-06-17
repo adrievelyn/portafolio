@@ -95,12 +95,14 @@ se puede colocar span:first-child(solo al primero))*/
 	font:var(--headline6);
 	margin-top: 20px;
 	color: var(--purple);
+	text-align: center;
 }
 
-.projects-down{
+.projects-down {
 	margin-top: 10px;
-	padding-left: 130px;
-}
+	
+	
+} 
 .button_download-cv{
 	width: 280px;
 }
