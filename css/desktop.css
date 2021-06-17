@@ -6,11 +6,22 @@
     .img-desktop_base{
         padding-right: 10px;
     }
+    .project_topMovies-img{
+        margin-left: 230px;
+    }
     /* .footer-copyright{
         display: flex;
     } */
 }
 
-@media screen and (min-width: 1280px){}
+@media screen and (min-width: 1280px){
+    .project_topMovies-img{
+        margin-left: 260px;
+    }
+}
 
-@media screen and (min-width: 1366px){}
+@media screen and (min-width: 1366px){
+    .project_topMovies-img{
+        margin-left: 260px;
+    }
+}

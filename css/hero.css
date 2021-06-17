@@ -1,9 +1,9 @@
 @media screen and (max-width: 599px){
-	 .header{
+	 /* .header{
 		position: sticky;
 		top: 0;
 		backdrop-filter: blur(15px);
-	} 
+	}  */
 .img-primary{
 	border-radius: 20px;
 	margin-top: 25px;
@@ -28,7 +28,11 @@
 }
 
 @media screen and (min-width: 600px){
-
+.header{
+		position: sticky;
+		top: 0;
+		backdrop-filter: blur(15px);
+	}
 .hero{
 	display: flex;
 	gap: 32px;
@@ -69,14 +73,22 @@
 	order:1;
 	flex:1;
 }
+.project_topMovies-img{
+	order: 2;
+	flex: 2;
+	
+}
 .project_responsive-description, .project_sodimac-description{
 	order:2;
 	flex:1;
-	padding-top: 30px;
 	
 }
-
-.form ..form-title{
+.project_topMovies-description{
+	order:1;
+	flex:2;
+	
+}
+.form, .form-title{
 	align-self: stretch;
 }
 /* esto selecciona los elementos y los coloca en zigzag impares a un lado y pares al otro, para no
@@ -84,6 +96,9 @@ hacerlo por partes, ya lo demás toman el estilo del padre */
 /* .project_responsive:nth-child(odd) .project_responsive-img{
 	order: 2
 } */
+.footer{
+	padding-top: 150px;
+}
 .footer-logo{
 	display: none;
 }

@@ -1,0 +1,25 @@
+.grettings{
+    height: 10vh;
+    display: grid;
+    place-items: center;
+}
+.grettings_typing-effect{
+    width: 15ch;
+    font: var(--headline5); 
+	color: var(--purple); 
+    animation: typing 1s steps(12), blink 15s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid var(--gradient2);
+    text-decoration-line: none;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}

@@ -45,6 +45,9 @@
     flex: 1;
   
    } 
+   .project_topMovies-img{
+       margin-left: 180px;
+   }
    .footer-copyright{
        font-size: 12px;
        padding-left: 50px;
@@ -54,6 +57,7 @@
        width: 50px;
        height: 50px;
        padding-top: 15px;
+       margin-left: 20px;
    }
    .footer .social-media{
     
@@ -70,4 +74,10 @@
        
     } 
 
+}
+
+@media screen and (min-width: 930px){
+.project_topMovies-img{
+    margin-left: 200px;
+}
 }
