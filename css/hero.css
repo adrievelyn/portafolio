@@ -4,16 +4,13 @@
 		z-index: 10;
 		top: 0;
 		backdrop-filter: blur(15px);
-	}
+}
 .img-primary{
 	border-radius: 20px;
 	margin-top: 25px;
 	width: 340px;
     height: 230px;
 }
-/* .projects .projects-down img {
-	padding: 250px;
-} */
 .button_download-cv {
     text-decoration: none;
     margin-top: 20px;
@@ -34,9 +31,9 @@
 		z-index: 10;
 		top: 0;
 		backdrop-filter: blur(15px);
-	}
+}
 .hero{
-	display: flex;
+	display: ;
 	gap: 32px;
 }
 .hero_description{
@@ -49,7 +46,7 @@
 	flex: 1;
 	text-align: end;
 }
-.header_button-CV{
+.menu-img {
 	display: none;
 } 
 .header_buttons ul {
@@ -65,9 +62,7 @@
 }
 .header_buttons-link1 {
 	margin-left: 100px;
-	
 }
-
 .project_responsive{
 	margin-top: 50px;
 }
@@ -82,17 +77,14 @@
 .project_topMovies-img{
 	order: 2;
 	flex: 2;
-	
 }
 .project_responsive-description, .project_sodimac-description{
 	order:2;
-	flex:1;
-	
+	flex:1;	
 }
 .project_topMovies-description{
 	order:1;
-	flex:2;
-	
+	flex:2;	
 }
 .form, .form-title{
 	align-self: stretch;

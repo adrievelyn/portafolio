@@ -33,7 +33,6 @@
 	--white: #ffffff;
 	--gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
 	--gradient2: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #1FA2FF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #12D8FA 0%, #A6FFCB 100%);
-
 }
 *{
 	margin: 0;
@@ -44,18 +43,12 @@ body{
 	background: var(--gradient2);
 	min-block-size: 100vh;
 }
-
-
 .header-logo{
 	margin-top: 2rem;
-	
 }
-
 h1{
-	font: var(--body1);
-	
+	font: var(--body1);	
 }
-
 .img-primary{
 	border-radius: 20px;
 	margin-top: 25px;
@@ -83,7 +76,6 @@ se puede colocar span:first-child(solo al primero))*/
 /* .hero_description{
 	gap: 16px;
 } */
-
 .hello-text {
 	font:var(--body2);
 }
@@ -97,16 +89,12 @@ se puede colocar span:first-child(solo al primero))*/
 	color: var(--purple);
 	text-align: center;
 }
-
 .projects-down {
 	margin-top: 10px;
-	
-	
 } 
 .button_download-cv{
 	width: 280px;
 }
-
 .project_responsive-img img, .project_topMovies-img img, .project_sodimac-img img{
 	position: absolute;
 	margin-top: 20px;
@@ -116,7 +104,6 @@ se puede colocar span:first-child(solo al primero))*/
 	height:177;
 	border: 10px solid #E7E7E7;
 	margin-left: 25px;
-	
 }
 .img-batatabit{
 	width: 240px;
@@ -129,7 +116,6 @@ se puede colocar span:first-child(solo al primero))*/
 	width: 250px;
 	height: 6px;
 	padding-left: 30px;
-	
 }
 .img-screen-s{
 	width:80px;
@@ -170,7 +156,6 @@ se puede colocar span:first-child(solo al primero))*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 .responsive-description, .topMovies-description, .sodimac-description{
 	font: var(--body1);
@@ -181,8 +166,7 @@ se puede colocar span:first-child(solo al primero))*/
 	color:var(--white);
 }
 .batatabit-code, .topMovies-code, .sodimac-code{
-	color: var(--purple);
-	
+	color: var(--purple);	
 }
 .img-rectangle{
 	width:230px;

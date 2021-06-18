@@ -1,7 +1,7 @@
 @media screen and (min-width: 851px){
     .header{
 	 padding-top: 25px; 
-  }
+    }
     .header_buttons ul {
         display: flex;
         padding-top: 50px; 
@@ -16,12 +16,9 @@
     .header_buttons-link1{
         margin-left: 180px;
     }
-    .header_button-CV{
-        display: none;
-    }
     .hero{
     display: flex;
-   }   
+    }   
    .hero_description{
     margin-top: 20px;
     order: 1;
@@ -34,31 +31,28 @@
    .img-primary{
     width: 350px;
     height: 250px;
-   }
+    }
    .icons{
      margin-top: 300px;
-   }
-  
-   
+    }
    .projects-down img {
     text-align: center;
     flex: 1;
-  
-   } 
+    } 
    .project_topMovies-img{
        margin-left: 180px;
-   }
+    }
    .footer-copyright{
        font-size: 12px;
        padding-left: 50px;
-   }
+    }
    .footer-logo{
        display: block;
        width: 50px;
        height: 50px;
        padding-top: 15px;
        margin-left: 20px;
-   }
+    }
    .footer .social-media{
     
         display: inline-flex;
@@ -69,11 +63,8 @@
         margin-left: 40px;
     }
     .footer .social_icon-linkedin,  .footer .social_icon-phone,  .footer .social_icon-mail,  .footer .social_icon-github{
-        padding: 5px;
-
-       
+        padding: 5px; 
     } 
-
 }
 
 @media screen and (min-width: 930px){

@@ -17,18 +17,14 @@
   display: block;
   padding: 10px 20px;
   max-width: 200px;
-
   font-variant: small-caps;
   text-shadow: 1px 1px black;
 }
 .menu-img{
     width: 45px;
-    
 }
 .header-menu input[type="checkbox"]{
-    
 }
-
 .header-menu input[type="checkbox"], .header-menu .fa-burger, .header-menu .fa-times {
     position: absolute;  
     box-sizing: border-box;
@@ -40,18 +36,14 @@
     height: 48px;  
     padding-top: 20px;
     margin-right: 20px;
-    
   }
-   
   .header-menu .fa-burger, .header-menu .fa-times {
     font-size: 48px;
     pointer-events: none;
   }
-   
   .header-menu input[type="checkbox"] {
     opacity: 0; 
   }
-   
   .header-menu {
     color: white;
     position: relative; 
@@ -69,15 +61,12 @@
   .header-menu nav {
     display: none;
   }
-   
   .header-menu input:checked ~ nav {
     display: block;
   }
-   
   .header-menu input:checked ~ .fa-burger {
     display: none;
   }
-   
   .header-menu input:not(:checked) ~ .fa-times {
     display: none;
   }
