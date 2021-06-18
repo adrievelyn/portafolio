@@ -32,7 +32,8 @@
 	--green: #42E2B8;
 	--white: #ffffff;
 	--gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
-	--gradient2: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #1FA2FF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #12D8FA 0%, #A6FFCB 100%);
+	--gradient2: radial-gradient(10.48% 11.48% at 2.38% 20.52%, #1FA2FF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(85deg, #12D8FA 0%, #A6FFCB 85%);
+	
 }
 *{
 	margin: 0;
@@ -224,5 +225,5 @@ se puede colocar span:first-child(solo al primero))*/
 	padding-top: 16px;
 }
 footer{
-	margin-top: 80px;
+	margin-top: 120px;
 }
