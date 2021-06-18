@@ -1,5 +1,5 @@
-.header_button-CV, .button_download-cv {
-    background: var(--purple);
+.button_download-cv {
+    background: var(--purple); 
     color: var(--white);
     font: var(--button);
     padding-inline-start: 24px;
@@ -10,9 +10,91 @@
     text-transform: uppercase;
     border: none;
 }
-.header_button-CV{
-    margin-top: 2rem;
+.header-menu {
+  margin-top: 2rem;
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  max-width: 200px;
+
+  font-variant: small-caps;
+  text-shadow: 1px 1px black;
 }
+.menu-img{
+    width: 45px;
+    
+}
+.header-menu input[type="checkbox"]{
+    
+}
+
+.header-menu input[type="checkbox"], .header-menu .fa-burger, .header-menu .fa-times {
+    position: absolute;  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 48px;  
+    padding-top: 20px;
+    
+  }
+   
+  .header-menu .fa-burger, .header-menu .fa-times {
+    font-size: 48px;
+    pointer-events: none;
+  }
+   
+  .header-menu input[type="checkbox"] {
+    opacity: 0; 
+  }
+   
+  .header-menu {
+    color: white;
+    position: relative; 
+    /* background: var(--purple);  */
+    min-height: 48px;
+  }
+  .header-menu nav a{
+    text-decoration: none;
+    font:var(--body1);
+    color:var(--purple);
+  }
+  .header-menu nav li{
+      list-style: none;
+  }
+  .header-menu nav {
+    display: none;
+  }
+   
+  .header-menu input:checked ~ nav {
+    display: block;
+  }
+   
+  .header-menu input:checked ~ .fa-burger {
+    display: none;
+  }
+   
+  .header-menu input:not(:checked) ~ .fa-times {
+    display: none;
+  }
+/* .header_button-CV, .button_download-cv {
+    background: var(--purple);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+} */
+/* .header_button-CV{
+    margin-top: 2rem;
+} */
 .button_download-cv {
     text-decoration: none;
     margin-top: 20px;
