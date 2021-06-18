@@ -12,14 +12,23 @@
     /* .footer-copyright{
         display: flex;
     } */
+    .footer .footer-copyright{
+        margin-left: 60px; 
+     }
+ 
+   
 }
 
 @media screen and (min-width: 1280px){
     .project_topMovies-img{
         margin-left: 260px;
     }
+    .footer .footer-copyright{
+        margin-left: 130px; 
+     }
+ 
 }
-
+    
 @media screen and (min-width: 1366px){
     .project_topMovies-img{
         margin-left: 260px;
