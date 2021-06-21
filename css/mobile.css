@@ -224,6 +224,9 @@ se puede colocar span:first-child(solo al primero))*/
 	text-align: center;
 	padding-top: 16px;
 }
+#sendMsg{
+	opacity: 0;
+}
 footer{
 	margin-top: 120px;
 }

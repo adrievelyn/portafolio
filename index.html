@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/mobile.css">
+   
     
 </head>
 <body>
     <div class="wrapper">
+        <!-- HEADER -->
     <header class='header'>
     <a href="https://adrianasanchezm.com/" target="_blank"><img class='header-logo' src="./images/ASM3.png" witd='80' height="80" alt="logo"></a>
     <nav class='header_buttons'>
@@ -41,6 +43,7 @@
       
     <!-- <button class='header_button-CV'>Currículum</button> -->
     </header>
+    <!-- CONTENT -->
     <div id='1' class='grettings'>
         <div class='grettings_typing-effect'>
             ¡Hola a Todos!
@@ -150,24 +153,27 @@
                    
                 </div>
        </section>
-       <!-- <form action="" method="POST" class='form'>
+       <!-- FORMULARIO -->
+       <form id='form' action="" method="" class='form'>
            <h2 class='form-title'>Hablemos</h2>
          <p class='form-subtitle'>Si está interesado(a) en trabajar conmigo en su próximo proyecto,
              no dude en contactarme.
          </p>
            <label for="form-name">Nombre Completo  
-              <input required name="name" id="form-name" type="text" placeholder=""> 
+              <input required name="name" id="form-name" type="text" placeholder="" autocomplete='on'> 
            </label>
-           <label for="form-name">
+           <label for="form-email">
                Correo Electrónico
-               <input required name="name" id="form-name" type="email" placeholder="">  
+               <input required name="email" id="form-name" type="email" placeholder="" autocomplete='on'>  
            </label>
-           <label for="form-name">
+           <label for="form-message">
                Mensaje 
                <textarea required name="message" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
            </label> 
           <button class="form-button" type="submit">ENVIAR MENSAJE</button>
-       </form> -->
+       </form> 
+       <a href="mailto:adrievelyn@gmail.com" id='sendMsg'>mail</a>
+       <!-- FOOTER -->
        <footer class='footer'>
         <div class='social-media'>
             <div>
@@ -190,5 +196,6 @@
              </div>
        </footer> 
      </div>
+   <script src='./form.js'></script>
 </body>
 </html>
