@@ -94,7 +94,8 @@ se puede colocar span:first-child(solo al primero))*/
 	margin-top: 10px;
 } 
 .button_download-cv{
-	width: 280px;
+	width: 240px;
+	display: block;
 }
 .project_responsive-img img, .project_topMovies-img img, .project_sodimac-img img{
 	position: absolute;
@@ -218,6 +219,8 @@ se puede colocar span:first-child(solo al primero))*/
 .form-button{
 	font:var(--headline7);
 	margin-left: 100px;
+	
+	
 }
 .form-subtitle{
 	font:var(--body1);

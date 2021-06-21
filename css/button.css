@@ -2,8 +2,8 @@
     background: var(--purple); 
     color: var(--white);
     font: var(--button);
-    padding-inline-start: 24px;
-    padding-inline-end: 24px;
+    padding-inline-start: 18px;
+    padding-inline-end: 18px;
     padding-block-start: 13px;
     padding-block-end: 13px;
     border-radius: 4px;
@@ -88,7 +88,7 @@
 .button_download-cv {
     text-decoration: none;
     margin-top: 20px;
-    width: 270px;
+    width: 180px;
 }
 
 
