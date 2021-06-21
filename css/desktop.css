@@ -9,13 +9,19 @@
     .project_topMovies-img{
         margin-left: 230px;
     }
+    .form{
+        margin-left: 230px;
+        margin-right: 230px;
+    }
     /* .footer-copyright{
         display: flex;
     } */
     .footer .footer-copyright{
         margin-left: 60px; 
      }
- 
+     .form button {
+        margin-left: 220px;
+    }
    
 }
 
@@ -23,13 +29,27 @@
     .project_topMovies-img{
         margin-left: 260px;
     }
+    .form{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
     .footer .footer-copyright{
         margin-left: 130px; 
      }
+     .form button {
+        margin-left: 275px;
+    }
 }
     
 @media screen and (min-width: 1366px){
     .project_topMovies-img{
         margin-left: 260px;
+    }
+    .form{
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+    .form button {
+        margin-left: 265px;
     }
 }

@@ -42,6 +42,13 @@
    .project_topMovies-img{
        margin-left: 180px;
     }
+    .form{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .form button {
+        margin-left: 210px;
+    }
    .footer-copyright{
        font-size: 12px;
        padding-left: 50px;
