@@ -9,5 +9,5 @@ const $buttonMailto = document.querySelector('#sendMsg')
         const form = new FormData(this)
         $buttonMailto.setAttribute('href', `mailto:adrievelyn@gmail.com?subject= ${form.get('name')} ${form.get('email')}&body= ${form.get('message')}`)
         $buttonMailto.click()
-        form.reset();
+        $form.reset();
     }
