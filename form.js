@@ -10,3 +10,7 @@ const $buttonMailto = document.querySelector('#sendMsg')
         $buttonMailto.setAttribute('href', `mailto:adrievelyn@gmail.com?subject= ${form.get('name')} ${form.get('email')}&body= ${form.get('message')}`)
         $buttonMailto.click()
     }
+    $(document).ready(function() {
+        $("#limpiar").click();
+        $("#form-comun > textarea").html("");
+    });
