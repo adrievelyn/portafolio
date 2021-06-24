@@ -49,6 +49,12 @@
 .menu-img {
 	display: none;
 } 
+.header-menu nav a{
+	display: none;
+}
+.header-menu input[type="checkbox"], .header-menu .fa-burger, .header-menu .fa-times{
+	display: none;
+}
 .header_buttons ul {
 	display: flex;
 	padding-top: 50px; 
